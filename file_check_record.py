@@ -88,7 +88,7 @@ for filename in os.listdir(directory):
 print("ファイル取得 終了")
 
 # 結果をエクセルファイルに書き込む
-output_file = 'file_check_sample.xlsx'
+output_file = 'Files/file_check_sample.xlsx'
 result_df.to_excel(output_file, index=False)
 
 print("ファイル書き込み 終了")
